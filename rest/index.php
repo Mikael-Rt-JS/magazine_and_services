@@ -1,10 +1,7 @@
 <?php
 header("Access-");
 header("Content-Type: application/json; charset-UTF-8");
-$serverDB="localhost";
-$user="mikaeltv_magazin";
-$password="Mgev3336";
-$nameDB="mikaeltv_magazin";
+
 
 $connect=@mysqli_connect($serverDB,$user,$password,$nameDB) or die("НЕТ ПОДКЛЮЧЕНИЕ С СЕРВЕРОМ");
 
