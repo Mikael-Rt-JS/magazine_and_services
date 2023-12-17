@@ -1,9 +1,9 @@
 <?php
 
-$serverDB="localhost";
-$user="mikaeltv_magazin";
-$password="Mgev3336";
-$nameDB="mikaeltv_magazin";
+$serverDB="";
+$user="";
+$password="";
+$nameDB="";
 
 $connect=@mysqli_connect($serverDB,$user,$password,$nameDB) or die("НЕТ ПОДКЛЮЧЕНИЕ С СЕРВЕРОМ");
 
