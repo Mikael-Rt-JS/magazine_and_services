@@ -1,0 +1,6 @@
+? https://urartubot.ru/rest/index.php?query=api_test&action=table_info
+? https://urartubot.ru/
+
+https://urartubot.ru/
+https://urartubot.ru/home
+https://urartubot.ru/rest/home/test переходит на файл на ./rest/index.php  с данными get

@@ -1,0 +1,18 @@
+https://urartubot.ru/
+https://urartubot.ru/rest/?q=api_test
+
+НОВЫЕ АДРЕСА СТРАНИЦ
+https://urartubot.ru/
+PHP
+https://urartubot.ru/admin_personal_data
+https://urartubot.ru/admin_categories +
+https://urartubot.ru/admin_main_categories +
+https://urartubot.ru/admin_my_products +
+https://urartubot.ru/admin_news_on_sait +
+https://urartubot.ru/admin_news_products +
+https://urartubot.ru/admin_orders +
+https://urartubot.ru/admin_ready_orders +
+https://urartubot.ru/admin_products +
+https://urartubot.ru/admin_users
+https://urartubot.ru/admin_payment_systems
+

@@ -1,0 +1,131 @@
+body::-webkit-scrollbar {
+    width: 9px;
+}
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(2,63,84,0.3);
+    background: rgba(2,63,84,1);
+}
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(2,171,228,1);
+    border-radius: 6px;
+}
+
+body{
+  background: rgb(2,63,84);
+}
+.page_title{
+  grid-column: 2/3;
+  text-align: center;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(2,171,228);
+  
+}
+.news_cards_grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns:  minmax(10px,140px) 1fr minmax(10px,140px);
+  grid-template-rows: auto;
+
+  color: rgb(2,171,228);
+  
+  /* background: var(--news_cards_grid_bcg); */
+}
+.news_cards_post_news{
+  grid-column: 2/3;
+
+  width: 100%;
+  display: grid;
+}
+
+.news_card{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  padding: 20px 5px;
+  /* border: 1px solid snow; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  line-height: 1.3;
+}
+.news_card_user{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.news_card_user-block{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.like_your{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.like_your img{
+  width: 35px;
+  margin-right: 10px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.like_your img:hover{
+  background: rgb(2,171,228);
+  padding: 6px 6px;
+  border-radius: 25px;
+  transition: all 0.6s;
+}
+
+.news_card_user img{
+  width: 30px;
+  opacity: 0.5;
+}
+
+.news_card_img{
+  width: 100%;
+  height: 400px;
+  background: url('https://images.autoboom.co.il/D11HA6ll8YdRiA_wCf1nU_lXePHmkkgLfMwqXiRu0YA/fit/1800/1800/sm/0/Z3M6Ly9hdXRvYm9vbS1pbWFnZXMvMDAwLzAwMC8yNzUvMjc1NjMxLmpwZw.jpg') center/cover no-repeat;
+}
+.news_card_info_data{
+  font-size: 12px;
+  justify-self: end;
+  
+}
+.news_card p{
+  color: snow;
+  font-size: 16px;
+  /* font-family: Arial,sans-serif; */
+}
+.to_learn_more{
+  width: 200px;
+  justify-self: end;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px dashed rgb(2,171,228);
+  /* background: rgb(2,171,228); */
+  background: none;
+
+  color: rgb(2,171,228);
+  cursor: pointer;
+  transition: all 0.6s;
+
+}
+.to_learn_more:hover{
+  font-weight: 700;
+  border-radius: 25px;
+  border: 1px solid snow;
+  background: rgb(2,171,228);
+
+  color: snow;
+  transition: all 0.6s;
+
+}
